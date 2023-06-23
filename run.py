@@ -23,7 +23,7 @@ class Bot:
         profile = webdriver.FirefoxProfile()
         profile.set_preference("general.useragent.override", user_agent)
         self.bot = webdriver.Firefox(profile, executable_path=GM().install())
-        self.bot.set_window_size(500, 950)
+        self.bot.set_window_size(1600, 800)
         with open(r'tags.txt', 'r') as f:
             tagsl = [line.strip() for line in f]
         self.tags = tagsl
@@ -37,7 +37,7 @@ class Bot:
         bot = self.bot
         bot.get('https://instagram.com/')
         time.sleep(3)
-        bot.find_element_by_xpath('/html/body/div[1]/section/main/article/div/div/div/div[3]/button[1]').click()
+        bot.find_element_by_xpath('/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div/div/div/div/div[2]/div[3]/button[1]').click()
         time.sleep(5)
 
         if check_exists_by_xpath(bot, "//button[text()='Accept']"):
@@ -50,19 +50,19 @@ class Bot:
         print("Logging in...")
         time.sleep(1)
         username_field = bot.find_element_by_xpath(
-            '/html/body/div[1]/section/main/article/div/div/div/form/div[1]/div[3]/div/label/input')
+            '/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div/div/div/div/div[2]/form/div[1]/div[3]/div/label/input')
         username_field.send_keys(self.username)
 
         find_pass_field = (
-            By.XPATH, '/html/body/div[1]/section/main/article/div/div/div/form/div[1]/div[4]/div/label/input')
-        WebDriverWait(bot, 50).until(
+            By.XPATH, '/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div/div/div/div/div[2]/form/div[1]/div[4]/div/label/input')
+        WebDriverWait(bot, 25).until(
             EC.presence_of_element_located(find_pass_field))
         pass_field = bot.find_element(*find_pass_field)
-        WebDriverWait(bot, 50).until(
+        WebDriverWait(bot, 25).until(
             EC.element_to_be_clickable(find_pass_field))
         pass_field.send_keys(self.password)
         bot.find_element_by_xpath(
-            '/html/body/div[1]/section/main/article/div/div/div/form/div[1]/div[6]/button').click()
+            '/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div/div/div/div/div[2]/form/div[1]/div[6]/button').click()
         time.sleep(4)
 
     def get_posts(self):
@@ -122,10 +122,10 @@ class Bot:
 
         find_comment_box = (
             By.XPATH, '/html/body/div[1]/section/main/section/div[1]/form/textarea')
-        WebDriverWait(bot, 50).until(
+        WebDriverWait(bot, 25).until(
             EC.presence_of_element_located(find_comment_box))
         comment_box = bot.find_element(*find_comment_box)
-        WebDriverWait(bot, 50).until(
+        WebDriverWait(bot, 25).until(
             EC.element_to_be_clickable(find_comment_box))
         comment_box.click()
         time.sleep(1)
@@ -133,10 +133,10 @@ class Bot:
 
         find_post_button = (
             By.XPATH, '/html/body/div[1]/section/main/section/div/form/button')
-        WebDriverWait(bot, 50).until(
+        WebDriverWait(bot, 25).until(
             EC.presence_of_element_located(find_post_button))
         post_button = bot.find_element(*find_post_button)
-        WebDriverWait(bot, 50).until(
+        WebDriverWait(bot, 25).until(
             EC.element_to_be_clickable(find_post_button))
         post_button.click()
 
