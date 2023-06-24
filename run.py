@@ -18,6 +18,7 @@ from webdriver_manager.firefox import GeckoDriverManager as GM
 
 class Bot:
     def __init__(self, username, password):
+        self.link = 'https://www.instagram.com/p/B_S6lA1gyVs/'
         self.username = username
         self.password = password
         user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0"
@@ -37,8 +38,8 @@ class Bot:
     def login(self):
         bot = self.bot
         bot.get('https://instagram.com/')
-        time.sleep(1000)
-        bot.find_element_by_xpath('/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div/div/div/div/div[2]/div[3]/button[1]').click()
+        
+        # bot.find_element_by_xpath('/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div/div/div/div/div[2]/div[3]/button[1]').click()
         time.sleep(5)
 
         if check_exists_by_xpath(bot, "//button[text()='Accept']"):
@@ -47,15 +48,15 @@ class Bot:
             bot.find_element_by_xpath("//button[text()='Accept']").click()
             print("Accepted cookies")
 
-        time.sleep(4)
+        
         print("Logging in...")
         time.sleep(1)
         username_field = bot.find_element_by_xpath(
-            '/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div/div/div/div/div[2]/form/div[1]/div[3]/div/label/input')
+            '/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[1]/div/label/input')
         username_field.send_keys(self.username)
 
         find_pass_field = (
-            By.XPATH, '/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div/div/div/div/div[2]/form/div[1]/div[4]/div/label/input')
+            By.XPATH, '/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[2]/div/label/input')
         WebDriverWait(bot, 25).until(
             EC.presence_of_element_located(find_pass_field))
         pass_field = bot.find_element(*find_pass_field)
@@ -63,77 +64,51 @@ class Bot:
             EC.element_to_be_clickable(find_pass_field))
         pass_field.send_keys(self.password)
         bot.find_element_by_xpath(
-            '/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div/div/div/div/div[2]/form/div[1]/div[6]/button').click()
+            '/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button').click()
         time.sleep(4)
 
     def get_posts(self):
-        print('Searching post by tag...')
+        print('Searching for post...')
         bot = self.bot
-        tags = self.tags
-        tag = tags.pop()
-        link = 'https://www.instagram.com/explore/tags/' + tag
+        link = self.link
         bot.get(link)
-
-        time.sleep(4)
-
-        for i in range(4):
-            ActionChains(bot).send_keys(Keys.END).perform()
-            time.sleep(2)
-
-        divs = bot.find_elements_by_xpath("//a[@href]")
-
-        first_urls = []
-
-        for i in divs:
-            if i.get_attribute('href') != None:
-                first_urls.append(i.get_attribute('href'))
-            else:
-                continue
-
-        for url in first_urls:
-            if url.startswith('https://www.instagram.com/p/'):
-                self.urls.append(url)
         return run.comment(random_comment())
+
 
     def comment(self, comment):
 
-        if len(self.urls) == 0:
-            print('Finished tag jumping to next one...')
-            return run.get_posts()
-
         bot = self.bot
-        url = self.urls.pop()
+        url = self.link
         print('commenting...')
         bot.get(url)
         bot.implicitly_wait(1)
 
-        bot.execute_script("window.scrollTo(0, window.scrollY + 300)")
+        # bot.execute_script("window.scrollTo(0, window.scrollY + 300)")
         time.sleep(2)
 
-        bot.find_element_by_xpath(
-            '/html/body/div[1]/section/main/div/div/article/div[3]/section[1]/span[1]/button').click()
-        time.sleep(2)
+        # bot.find_element_by_xpath(
+        #     '/html/body/div[1]/section/main/div/div/article/div[3]/section[1]/span[1]/button').click()
+        # time.sleep(2)
 
-        bot.find_element_by_xpath(
-            '//*[@id="react-root"]/section/main/div/div[1]/article/div[3]/section[1]/span[2]/button').click()
+        # bot.find_element_by_xpath(
+        #     '//*[@id="react-root"]/section/main/div/div[1]/article/div[3]/section[1]/span[2]/button').click()
 
-        if check_exists_by_xpath(bot, '/html/body/div[1]/section/main/section/div'):
-            print("skiped")
-            return run.comment(random_comment())
+        
 
         find_comment_box = (
-            By.XPATH, '/html/body/div[1]/section/main/section/div[1]/form/textarea')
+            By.XPATH, '/html/body/div[2]/div/div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/section/div/form/div/textarea')
         WebDriverWait(bot, 25).until(
             EC.presence_of_element_located(find_comment_box))
         comment_box = bot.find_element(*find_comment_box)
         WebDriverWait(bot, 25).until(
             EC.element_to_be_clickable(find_comment_box))
-        comment_box.click()
-        time.sleep(1)
+        # comment_box.click()
+        print("Entering...")
+        time.sleep(2)
         comment_box.send_keys(comment)
 
         find_post_button = (
-            By.XPATH, '/html/body/div[1]/section/main/section/div/form/button')
+            By.XPATH, '/html/body/div[2]/div/div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/section/div/form/div/div[2]/div')
         WebDriverWait(bot, 25).until(
             EC.presence_of_element_located(find_post_button))
         post_button = bot.find_element(*find_post_button)
@@ -142,8 +117,8 @@ class Bot:
         post_button.click()
 
         # edit this line to make bot faster
-        time.sleep(5)
-        # ---------------------------------
+        time.sleep(7)
+
 
         return run.comment(random_comment())
 
@@ -168,8 +143,5 @@ def check_exists_by_xpath(driver, xpath):
 run = Bot(usr, passw)
 run.login()
 
-# if __name__ == '__main__':
-#     if run.tags == []:
-#         print("Finished")
-#     else:
-#         run.get_posts()
+if __name__ == '__main__':
+    run.get_posts()
