@@ -15,9 +15,12 @@ from credentials import username as usr, password as passw
 from webdriver_manager.firefox import GeckoDriverManager as GM
 
 
+with open(r'comments.txt', 'r') as f:
+    commentsl = [line.strip() for line in f]
 
 class Bot:
     def __init__(self, username, password):
+        
         self.link = 'https://www.instagram.com/p/B_S6lA1gyVs/'
         self.username = username
         self.password = password
@@ -69,38 +72,27 @@ class Bot:
 
     def get_posts(self):
         print('Searching for post...')
-        bot = self.bot
         link = self.link
-        bot.get(link)
+        self.bot.get(link)
+        time.sleep(1)
         return run.comment(random_comment())
 
 
     def comment(self, comment):
 
-        bot = self.bot
-        url = self.link
+        
+     
+        
         print('commenting...')
-        bot.get(url)
-        bot.implicitly_wait(1)
-
-        # bot.execute_script("window.scrollTo(0, window.scrollY + 300)")
-        time.sleep(2)
-
-        # bot.find_element_by_xpath(
-        #     '/html/body/div[1]/section/main/div/div/article/div[3]/section[1]/span[1]/button').click()
-        # time.sleep(2)
-
-        # bot.find_element_by_xpath(
-        #     '//*[@id="react-root"]/section/main/div/div[1]/article/div[3]/section[1]/span[2]/button').click()
-
+       
         
 
         find_comment_box = (
             By.XPATH, '/html/body/div[2]/div/div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/section/div/form/div/textarea')
-        WebDriverWait(bot, 25).until(
+        WebDriverWait(self.bot, 25).until(
             EC.presence_of_element_located(find_comment_box))
-        comment_box = bot.find_element(*find_comment_box)
-        WebDriverWait(bot, 25).until(
+        comment_box = self.bot.find_element(*find_comment_box)
+        WebDriverWait(self.bot, 25).until(
             EC.element_to_be_clickable(find_comment_box))
         # comment_box.click()
         print("Entering...")
@@ -109,25 +101,23 @@ class Bot:
 
         find_post_button = (
             By.XPATH, '/html/body/div[2]/div/div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/section/div/form/div/div[2]/div')
-        WebDriverWait(bot, 25).until(
+        WebDriverWait(self.bot, 25).until(
             EC.presence_of_element_located(find_post_button))
-        post_button = bot.find_element(*find_post_button)
-        WebDriverWait(bot, 25).until(
+        post_button = self.bot.find_element(*find_post_button)
+        WebDriverWait(self.bot, 25).until(
             EC.element_to_be_clickable(find_post_button))
         post_button.click()
 
         # edit this line to make bot faster
-        time.sleep(7)
+        time.sleep(random.randint(3, 7))
 
 
         return run.comment(random_comment())
 
 
 def random_comment():
-    with open(r'comments.txt', 'r') as f:
-        commentsl = [line.strip() for line in f]
-    comments = commentsl
-    comment = random.choice(comments)
+    
+    comment = random.choice(commentsl)
     return comment
 
 
