@@ -102,3 +102,56 @@ JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ifKa4/l/makehaste
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 1687501681292	Marionette	INFO	Stopped listening on port 64618
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1687567606889	geckodriver	INFO	Listening on 127.0.0.1:55976
+1687567607781	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileP2bDVq"
+1687567608761	Marionette	INFO	Marionette enabled
+1687567608910	Marionette	INFO	Listening on port 55987
+Read port: 55987
+1687567609426	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileP2bDVq/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iqcA4/y7/l/en_US/ehflclV3s96.js?_nc_x=Ij3Wp8lg5Kz, line 38: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript error: https://static.cdninstagram.com/rsrc.php/v3/y3/r/h7ceUqoEusJ.js?_nc_x=Ij3Wp8lg5Kz, line 22: ReferenceError: window is not defined
+1687567631121	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yI/l/makehaste_jhash/Ezudquyk8Gc.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://static.cdninstagram.com/rsrc.php/v3/y3/r/h7ceUqoEusJ.js?_nc_x=Ij3Wp8lg5Kz, line 22: ReferenceError: window is not defined
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yI/l/makehaste_jhash/Ezudquyk8Gc.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://static.cdninstagram.com/rsrc.php/v3/y3/r/h7ceUqoEusJ.js?_nc_x=Ij3Wp8lg5Kz, line 22: ReferenceError: window is not defined
+JavaScript error: chrome://browser/content/browser-gestureSupport.js, line 504: TypeError: window.content is null
+JavaScript error: chrome://browser/content/browser-gestureSupport.js, line 526: TypeError: window.content is null
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iao64/l/makehaste_jhash/NGEIhhP2asLu6g1_Ti3VMEy6hxWkBdd1t6J4rTySrI84Ag9df2SGmRShxytgRwuIoi8XKAgmYrsccUKg9hlKrMzTYx9d9Xl97kOKLzylsCbsl-xNCWymYGnt-jgBoolfNY3B2LELT1kLdOYMxrEI1y-IlQYuqiyauchjBbhWrXF9xv_NM8FYfbje9FejVS4O6PjWhDLYdjYDEW7pbAOnOvOQjUIpORmfXDSKoAGElSXADDhqhkewDYUPKzSBpei1QrCnKcFp.js?_nc_x=Ij3Wp8lg5Kz, line 86: unreachable code after return statement
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yI/l/makehaste_jhash/Ezudquyk8Gc.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://static.cdninstagram.com/rsrc.php/v3/y3/r/h7ceUqoEusJ.js?_nc_x=Ij3Wp8lg5Kz, line 22: ReferenceError: window is not defined
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yI/l/makehaste_jhash/Ezudquyk8Gc.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://static.cdninstagram.com/rsrc.php/v3/y3/r/h7ceUqoEusJ.js?_nc_x=Ij3Wp8lg5Kz, line 22: ReferenceError: window is not defined
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iao64/l/makehaste_jhash/NGEIhhP2asLu6g1_Ti3VMEy6hxWkBdd1t6J4rTySrI84Ag9df2SGmRShxytgRwuIoi8XKAgmYrsccUKg9hlKrMzTYx9d9Xl97kOKLzylsCbsl-xNCWymYGnt-jgBoolfNY3B2LELT1kLdOYMxrEI1y-IlQYuqiyauchjBbhWrXF9xv_NM8FYfbje9FejVS4O6PjWhDLYdjYDEW7pbAOnOvOQjUIpORmfXDSKoAGElSXADDhqhkewDYUPKzSBpei1QrCnKcFp.js?_nc_x=Ij3Wp8lg5Kz, line 86: unreachable code after return statement
+1687567787618	geckodriver	INFO	Listening on 127.0.0.1:56096
+1687567788468	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofile9p8JK5"
+1687567789091	Marionette	INFO	Marionette enabled
+1687567789213	Marionette	INFO	Listening on port 56109
+Read port: 56109
+1687567789957	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofile9p8JK5/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iqcA4/y7/l/en_US/ehflclV3s96.js?_nc_x=Ij3Wp8lg5Kz, line 38: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1687567955213	geckodriver	INFO	Listening on 127.0.0.1:56242
+1687567956063	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileCRV5dY"
+1687567956867	Marionette	INFO	Marionette enabled
+1687567956986	Marionette	INFO	Listening on port 56255
+Read port: 56255
+1687567957511	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileCRV5dY/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iqcA4/y7/l/en_US/ehflclV3s96.js?_nc_x=Ij3Wp8lg5Kz, line 38: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript error: https://static.cdninstagram.com/rsrc.php/v3/y3/r/h7ceUqoEusJ.js?_nc_x=Ij3Wp8lg5Kz, line 22: ReferenceError: window is not defined
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yI/l/makehaste_jhash/Ezudquyk8Gc.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iao64/l/makehaste_jhash/6J4rTySrI848XKAgmYrsccKLzylsCbsl-jgBoolfNY3BMxrEI1y-IlQAOnOvOQjUIpElSXADDhqhkewDYUPKzSBpei1QrCnKcFp.js?_nc_x=Ij3Wp8lg5Kz, line 5: unreachable code after return statement
+1687568045268	Marionette	INFO	Stopped listening on port 55987
+1687568051370	Marionette	INFO	Stopped listening on port 56109
+1687568054093	Marionette	INFO	Stopped listening on port 56255
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1687568128350	geckodriver	INFO	Listening on 127.0.0.1:56487
+1687568129229	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilegCE3H0"
+2023-06-23 17:55:41.102 firefox-bin[75330:18671007] AuthorizationCopyRights failed! NSOSStatusErrorDomain / -60006
+[GFX1-]: Unrecognized feature ACCELERATED_CANVAS2D

@@ -15,11 +15,12 @@ from credentials import username as usr, password as passw
 from webdriver_manager.firefox import GeckoDriverManager as GM
 
 
+
 class Bot:
     def __init__(self, username, password):
         self.username = username
         self.password = password
-        user_agent = "Mozilla/5.0 (iPhone; U; CPU iPhone OS 3_0 like Mac OS X; en-us) AppleWebKit/528.18 (KHTML, like Gecko) Version/4.0 Mobile/7A341 Safari/528.16"
+        user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0"
         profile = webdriver.FirefoxProfile()
         profile.set_preference("general.useragent.override", user_agent)
         self.bot = webdriver.Firefox(profile, executable_path=GM().install())
@@ -36,7 +37,7 @@ class Bot:
     def login(self):
         bot = self.bot
         bot.get('https://instagram.com/')
-        time.sleep(3)
+        time.sleep(1000)
         bot.find_element_by_xpath('/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div/div/div/div/div[2]/div[3]/button[1]').click()
         time.sleep(5)
 
@@ -167,8 +168,8 @@ def check_exists_by_xpath(driver, xpath):
 run = Bot(usr, passw)
 run.login()
 
-if __name__ == '__main__':
-    if run.tags == []:
-        print("Finished")
-    else:
-        run.get_posts()
+# if __name__ == '__main__':
+#     if run.tags == []:
+#         print("Finished")
+#     else:
+#         run.get_posts()
