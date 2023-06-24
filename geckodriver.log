@@ -98,3 +98,7 @@ JavaScript error: https://static.cdninstagram.com/rsrc.php/v3/y3/r/h7ceUqoEusJ.j
 JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yI/l/makehaste_jhash/Ezudquyk8Gc.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 JavaScript error: https://static.cdninstagram.com/rsrc.php/v3/y3/r/h7ceUqoEusJ.js?_nc_x=Ij3Wp8lg5Kz, line 22: ReferenceError: window is not defined
 JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ifKa4/l/makehaste_jhash/JRSZkNByByJPoBc7BvLlw_u6g1_Ti3VMEkZMb3I7M51TAg9df2SGmRSC6AcE9wDcvzdzO5JtIn6zWW6Di_ZEmHhx6t_dB-yUbWKT4KdBO8oORe1nACGGLQLPKsL7kgdMmMRtNplmwvRo2LxizzJ9EUbxRzAOnOvOQjUIpORmfXDSKoAGElSXADDhqhkBnWqydefC57.js?_nc_x=Ij3Wp8lg5Kz, line 42: unreachable code after return statement
+1687501680033	Marionette	INFO	Stopped listening on port 64201
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1687501681292	Marionette	INFO	Stopped listening on port 64618
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
