@@ -15,13 +15,13 @@ from credentials import username as usr, password as passw
 from webdriver_manager.firefox import GeckoDriverManager as GM
 
 
-with open(r'comments.txt', 'r') as f:
+with open(r'/Users/nmunjal/Downloads/instacommenter/comments.txt', 'r') as f:
     commentsl = [line.strip() for line in f]
 
 class Bot:
     def __init__(self, username, password):
-        
-        self.link = 'https://www.instagram.com/p/B_S6lA1gyVs/'
+        self.count = 0
+        self.link = 'https://www.instagram.com/p/CufvbjBv6JT/'
         self.username = username
         self.password = password
         user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0"
@@ -55,11 +55,11 @@ class Bot:
         print("Logging in...")
         time.sleep(1)
         username_field = bot.find_element_by_xpath(
-            '/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[1]/div/label/input')
+            '/html/body/div[2]/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[1]/div/label/input')
         username_field.send_keys(self.username)
 
         find_pass_field = (
-            By.XPATH, '/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[2]/div/label/input')
+            By.XPATH, '/html/body/div[2]/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[2]/div/label/input')
         WebDriverWait(bot, 25).until(
             EC.presence_of_element_located(find_pass_field))
         pass_field = bot.find_element(*find_pass_field)
@@ -67,7 +67,7 @@ class Bot:
             EC.element_to_be_clickable(find_pass_field))
         pass_field.send_keys(self.password)
         bot.find_element_by_xpath(
-            '/html/body/div[2]/div/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button').click()
+            '/html/body/div[2]/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button').click()
         time.sleep(4)
 
     def get_posts(self):
@@ -75,12 +75,13 @@ class Bot:
         link = self.link
         self.bot.get(link)
         time.sleep(1)
+       
         return run.comment(random_comment())
 
 
     def comment(self, comment):
 
-        
+        bot = self.bot
      
         
         print('commenting...')
@@ -88,30 +89,39 @@ class Bot:
         
 
         find_comment_box = (
-            By.XPATH, '/html/body/div[2]/div/div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/section/div/form/div/textarea')
+            By.XPATH, '/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/section/div/form/div/textarea')
         WebDriverWait(self.bot, 25).until(
             EC.presence_of_element_located(find_comment_box))
         comment_box = self.bot.find_element(*find_comment_box)
         WebDriverWait(self.bot, 25).until(
             EC.element_to_be_clickable(find_comment_box))
         # comment_box.click()
-        print("Entering...")
-        time.sleep(2)
+        self.count = self.count + 1
+        print(f"Entering...{self.count}")
         comment_box.send_keys(comment)
+        time.sleep(1)
 
         find_post_button = (
-            By.XPATH, '/html/body/div[2]/div/div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/section/div/form/div/div[2]/div')
+            By.XPATH, '/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/section/div/form/div/div[2]/div')
         WebDriverWait(self.bot, 25).until(
             EC.presence_of_element_located(find_post_button))
         post_button = self.bot.find_element(*find_post_button)
-        WebDriverWait(self.bot, 25).until(
+
+        
+        WebDriverWait(self.bot, 10).until(
             EC.element_to_be_clickable(find_post_button))
-        post_button.click()
+       
+        if check_exists_by_xpath(bot, "//button[text()='OK']"):
+            post_button.click()
+        else:
+            bot.find_element_by_xpath("//button[text()='OK']").click()
+            print("blocked")
+            time.sleep(600)
 
-        # edit this line to make bot faster
-        time.sleep(random.randint(3, 7))
 
-
+        
+       
+        time.sleep(random.randint(1, 3))
         return run.comment(random_comment())
 
 
