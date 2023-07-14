@@ -1,5 +1,6 @@
 import os
 import time
+import sys
 import random
 import spintax
 import requests
@@ -13,13 +14,18 @@ from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
 from credentials import username as usr, password as passw
 from webdriver_manager.firefox import GeckoDriverManager as GM
+from selenium.webdriver.firefox.options import Options
 
 
-with open(r'/Users/nmunjal/Downloads/instacommenter/comments.txt', 'r') as f:
+sys.setrecursionlimit(10**6)
+
+with open(r'comments.txt', 'r') as f:
     commentsl = [line.strip() for line in f]
 
 class Bot:
     def __init__(self, username, password):
+        options = Options()
+        options.headless = True
         self.count = 0
         self.link = 'https://www.instagram.com/p/CufvbjBv6JT/'
         self.username = username
@@ -28,11 +34,8 @@ class Bot:
         profile = webdriver.FirefoxProfile()
         profile.set_preference("general.useragent.override", user_agent)
         self.bot = webdriver.Firefox(profile, executable_path=GM().install())
-        self.bot.set_window_size(1600, 800)
-        with open(r'tags.txt', 'r') as f:
-            tagsl = [line.strip() for line in f]
-        self.tags = tagsl
-        self.urls = []
+        #self.bot.set_window_size(1600, 800)
+       
 
     def exit(self):
         bot = self.bot
@@ -116,12 +119,12 @@ class Bot:
         else:
             bot.find_element_by_xpath("//button[text()='OK']").click()
             print("blocked")
-            time.sleep(600)
+            time.sleep(300)
 
 
         
        
-        time.sleep(random.randint(1, 3))
+        time.sleep(random.randint(3, 7))
         return run.comment(random_comment())
 
 

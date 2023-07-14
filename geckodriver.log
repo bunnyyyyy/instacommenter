@@ -1527,3 +1527,208 @@ A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
 1689228972091	Marionette	INFO	Stopped listening on port 61531
 [Parent 45863, IPC I/O Parent] WARNING: process 45880 exited on signal 9: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_posix.cc:256
 JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1689230907593	geckodriver	INFO	Listening on 127.0.0.1:62270
+1689230908441	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileZi09BY"
+*** You are running in headless mode.
+1689230909393	Marionette	INFO	Marionette enabled
+1689230909525	Marionette	INFO	Listening on port 62281
+Read port: 62281
+1689230910369	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileZi09BY/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yA/l/en_US/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y2/l/makehaste_jhash/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y2/l/makehaste_jhash/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3i9x34/l/makehaste_jhash/Dp2Ff6ewj0skLTd6XCV-Ej8rQxiTmCXVMVLNpzr1SzScDD6Tn0Gv_IMDryJOw6gk_0Op8PyPNVPospfTmGZYlLHSvZN0xfMVh8p.js?_nc_x=Ij3Wp8lg5Kz, line 66: unreachable code after return statement
+1689233004720	geckodriver	INFO	Listening on 127.0.0.1:62795
+1689233005609	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileF8BTUU"
+*** You are running in headless mode.
+1689233006167	Marionette	INFO	Marionette enabled
+1689233006250	Marionette	INFO	Listening on port 62806
+Read port: 62806
+1689233007009	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileF8BTUU/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yA/l/en_US/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y2/l/makehaste_jhash/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y2/l/makehaste_jhash/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: https://static.cdninstagram.com/rsrc.php/v3/yp/r/Gy5UQ1XcUfz.js?_nc_x=Ij3Wp8lg5Kz, line 80: Error: registration_failed
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3i9x34/l/makehaste_jhash/Dp2Ff6ewj0skLTd6XCV-Ej8rQxiTmCXVMVLNpzr1SzScDD6Tn0Gv_IMDryJOw6gk_0Op8PyPNVPospfTmGZYlLHSvZN0xfMVh8p.js?_nc_x=Ij3Wp8lg5Kz, line 66: unreachable code after return statement
+1689264505827	geckodriver	INFO	Listening on 127.0.0.1:49510
+1689264506681	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilewQ7sUi"
+*** You are running in headless mode.
+1689264507353	Marionette	INFO	Marionette enabled
+1689264507449	Marionette	INFO	Listening on port 49522
+Read port: 49522
+1689264508321	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilewQ7sUi/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yA/l/en_US/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y2/l/makehaste_jhash/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y2/l/makehaste_jhash/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3i9x34/l/makehaste_jhash/Dp2Ff6ewj0skLTd6XCV-Ej8rQxiTmCXVMVLNpzr1SzScDD6Tn0Gv_IMDryJOw6gk_0Op8PyPNVPospfTmGZYlLHSvZN0xfMVh8p.js?_nc_x=Ij3Wp8lg5Kz, line 66: unreachable code after return statement
+1689275012785	geckodriver	INFO	Listening on 127.0.0.1:51786
+1689275013653	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileURlOJ3"
+*** You are running in headless mode.
+1689275014407	Marionette	INFO	Marionette enabled
+1689275014529	Marionette	INFO	Listening on port 51797
+Read port: 51797
+1689275015513	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileURlOJ3/search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y2/l/makehaste_jhash/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689275029794	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1689275229424	geckodriver	INFO	Listening on 127.0.0.1:51931
+1689275230315	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofile0MtScx"
+*** You are running in headless mode.
+1689275230845	Marionette	INFO	Marionette enabled
+1689275230923	Marionette	INFO	Listening on port 51942
+Read port: 51942
+1689275231806	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofile0MtScx/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yA/l/en_US/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y2/l/makehaste_jhash/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y2/l/makehaste_jhash/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3i9x34/l/makehaste_jhash/Dp2Ff6ewj0skLTd6XCV-Ej8rQxiTmCXVMVLNpzr1SzScZCWYwon8jIFDryJOw6gk_0Op8PyPNVPospfTmGZYlLHSvZN0xfMVh8p.js?_nc_x=Ij3Wp8lg5Kz, line 66: unreachable code after return statement
+1689304628312	geckodriver	INFO	Listening on 127.0.0.1:57534
+1689304629190	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileXn4fjl"
+*** You are running in headless mode.
+1689304629779	Marionette	INFO	Marionette enabled
+1689304629867	Marionette	INFO	Listening on port 57545
+Read port: 57545
+1689304630651	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileXn4fjl/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yA/l/en_US/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1689304657231	geckodriver	INFO	Listening on 127.0.0.1:57601
+1689304658116	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileXmkbm9"
+1689304658840	Marionette	INFO	Marionette enabled
+1689304658949	Marionette	INFO	Listening on port 57614
+Read port: 57614
+1689304659533	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileXmkbm9/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yA/l/en_US/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y2/l/makehaste_jhash/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y2/l/makehaste_jhash/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3i9x34/l/makehaste_jhash/Dp2Ff6ewj0skLTd6XCV-Ej8rQxiTmCXVMVLNpzr1SzScZCWYwon8jIFDryJOw6gk_0Op8PyPNVPospfTmGZYlLHSvZN0xfMVh8p.js?_nc_x=Ij3Wp8lg5Kz, line 66: unreachable code after return statement
+1689304783766	Marionette	INFO	Stopped listening on port 57614
+1689304786448	geckodriver	INFO	Listening on 127.0.0.1:57740
+1689304787340	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileVLDYMP"
+1689304788071	Marionette	INFO	Marionette enabled
+1689304788174	Marionette	INFO	Listening on port 57752
+Read port: 57752
+1689304788720	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileVLDYMP/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yA/l/en_US/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+1689304802085	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1689311449875	Marionette	INFO	Stopped listening on port 57752
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1689311450901	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1689311465052	geckodriver	INFO	Listening on 127.0.0.1:58968
+1689311465927	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileiuL1fE"
+1689311466774	Marionette	INFO	Marionette enabled
+1689311466907	Marionette	INFO	Listening on port 58979
+Read port: 58979
+1689311467416	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileiuL1fE/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yA/l/en_US/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yA/l/en_US/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3i9x34/yI/l/en_US/Dp2Ff6ewj0skLTd6XCV-Ej4QXRvDsi5K1NPLEIzNsNmm8rQxiTmCXVMHCHFbtS3e5-Ruw6boIwIFMVLNpzr1SzScc1_6Wux-vJxVifcNCLZO_DZCWYwon8jIFboxSmwjhI-qDryJOw6gk_0qlo7ZLpIgNsOWiDzeE5nuAQDlssYmYfG4Op8PyPNVPosfKxVkX4GuW2pfTmGZYlLHSvZN0xfMVh8pTFvoDpzEXbm.js?_nc_x=Ij3Wp8lg5Kz, line 66: unreachable code after return statement
+1689313886158	Marionette	INFO	Stopped listening on port 58979
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1689313886271	geckodriver	INFO	Listening on 127.0.0.1:59590
+1689313887086	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofile68c1eI"
+1689313887729	Marionette	INFO	Marionette enabled
+1689313887872	Marionette	INFO	Listening on port 59602
+Read port: 59602
+1689313888636	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofile68c1eI/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yA/l/en_US/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y2/l/makehaste_jhash/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y2/l/makehaste_jhash/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1689314395228	geckodriver	INFO	Listening on 127.0.0.1:59840
+1689314396109	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofile9nys5r"
+1689314396861	Marionette	INFO	Marionette enabled
+1689314396978	Marionette	INFO	Listening on port 59852
+Read port: 59852
+1689314397559	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofile9nys5r/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yA/l/en_US/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y2/l/makehaste_jhash/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y2/l/makehaste_jhash/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689314482586	Marionette	INFO	Stopped listening on port 59852
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1689314495273	geckodriver	INFO	Listening on 127.0.0.1:59948
+1689314496149	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileYFK3TH"
+1689314496970	Marionette	INFO	Marionette enabled
+1689314497094	Marionette	INFO	Listening on port 59959
+Read port: 59959
+1689314497636	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileYFK3TH/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yA/l/en_US/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+1689314514263	Marionette	INFO	Stopped listening on port 59959
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1689314515554	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1689314518704	geckodriver	INFO	Listening on 127.0.0.1:60016
+1689314519587	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileQk3amL"
+1689314520313	Marionette	INFO	Marionette enabled
+1689314520415	Marionette	INFO	Listening on port 60028
+Read port: 60028
+1689314521021	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileQk3amL/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yA/l/en_US/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y2/l/makehaste_jhash/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3i9x34/l/makehaste_jhash/Dp2Ff6ewj0sw1SJ4MHP4SY4QXRvDsi5K1NPLEIzNsNmm8rQxiTmCXVMhREquEJ3XULRuw6boIwIFMWSBsmOdU6rWc1_6Wux-vJxZCWYwon8jIFboxSmwjhI-qDryJOw6gk_0qlo7ZLpIgNs1RPt-iwOQJnpfTmGZYlLHShJcXFBnXnAyvZN0xfMVh8p.js?_nc_x=Ij3Wp8lg5Kz, line 66: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/y2/l/makehaste_jhash/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+Shutting down due to socket process crash.
+1689314598210	geckodriver	INFO	Listening on 127.0.0.1:60123
+1689314599081	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileT6W7n2"
+1689314599803	Marionette	INFO	Marionette enabled
+1689314599920	Marionette	INFO	Listening on port 60137
+Read port: 60137
+1689314600525	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileT6W7n2/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yA/l/en_US/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+1689314612347	Marionette	INFO	Stopped listening on port 60137
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1689314616634	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1689314738407	geckodriver	INFO	Listening on 127.0.0.1:60229
+1689314739279	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilecOlL0d"
+1689314740023	Marionette	INFO	Marionette enabled
+1689314740129	Marionette	INFO	Listening on port 60241
+Read port: 60241
+1689314740690	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilecOlL0d/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yA/l/en_US/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3if8t4/yA/l/en_US/MhbKjYWGW4d.js?_nc_x=Ij3Wp8lg5Kz, line 39: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689314766501	Marionette	INFO	Stopped listening on port 60241
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1689314766964	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
