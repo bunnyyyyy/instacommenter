@@ -12,7 +12,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
-from sanyacreds import username as usr, password as passw
+from michayacreds import username as usr, password as passw
 from webdriver_manager.firefox import GeckoDriverManager as GM
 from selenium.webdriver.firefox.options import Options
 
@@ -27,6 +27,8 @@ class Bot:
         options = Options()
         options.headless = True
         self.count = 0
+        self.success = 0
+        self.block = 0
         self.link = 'https://www.instagram.com/p/CufvbjBv6JT/'
         self.username = username
         self.password = password
@@ -71,7 +73,7 @@ class Bot:
         pass_field.send_keys(self.password)
         bot.find_element_by_xpath(
             '/html/body/div[2]/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button').click()
-        time.sleep(4)
+        time.sleep(6)
 
     def get_posts(self):
         print('Searching for post...')
@@ -85,9 +87,9 @@ class Bot:
     def comment(self, comment):
 
         bot = self.bot
-     
+
         
-        print('commenting...')
+       
        
         
 
@@ -113,18 +115,28 @@ class Bot:
         
         WebDriverWait(self.bot, 10).until(
             EC.element_to_be_clickable(find_post_button))
+        
        
         if check_exists_by_xpath(bot, "//button[text()='OK']"):
             post_button.click()
+
+            time.sleep(3)
+
+            if check_exists_by_xpath(bot, "//button[text()='OK']"):
+                self.success = self.success + 1
+                print(f"Successful...{self.success}")
         else:
             bot.find_element_by_xpath("//button[text()='OK']").click()
-            print("blocked")
+            self.block = self.block + 1
+            comment_box.clear()
+            print(f"Blocked...{self.block}")
+            print(f"Successful (not this time)...{self.success}")
             time.sleep(300)
 
 
         
        
-        time.sleep(random.randint(3, 7))
+        time.sleep(random.randint(1, 3))
         return run.comment(random_comment())
 
 

@@ -12,7 +12,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
-from credentials import username as usr, password as passw
+from sanyacreds import username as usr, password as passw
 from webdriver_manager.firefox import GeckoDriverManager as GM
 from selenium.webdriver.firefox.options import Options
 
@@ -35,7 +35,7 @@ class Bot:
         user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0"
         profile = webdriver.FirefoxProfile()
         profile.set_preference("general.useragent.override", user_agent)
-        self.bot = webdriver.Firefox(profile, options=options, executable_path=GM().install())
+        self.bot = webdriver.Firefox(profile, executable_path=GM().install())
         #self.bot.set_window_size(1600, 800)
        
 
@@ -130,6 +130,7 @@ class Bot:
             self.block = self.block + 1
             comment_box.clear()
             print(f"Blocked...{self.block}")
+            print(f"Successful (not this time)...{self.success}")
             time.sleep(300)
 
 
