@@ -35,7 +35,7 @@ class Bot:
         user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:109.0) Gecko/20100101 Firefox/109.0"
         profile = webdriver.FirefoxProfile()
         profile.set_preference("general.useragent.override", user_agent)
-        self.bot = webdriver.Firefox(profile, executable_path=GM().install())
+        self.bot = webdriver.Firefox(profile, options=options, executable_path=GM().install())
         #self.bot.set_window_size(1600, 800)
        
 
@@ -131,12 +131,12 @@ class Bot:
             comment_box.clear()
             print(f"Blocked...{self.block}")
             print(f"Successful (not this time)...{self.success}")
-            time.sleep(300)
+            time.sleep(60*30)
 
 
         
        
-        time.sleep(random.randint(1, 3))
+        time.sleep(random.randint(3, 7))
         return run.comment(random_comment())
 
 
