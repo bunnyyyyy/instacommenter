@@ -2079,3 +2079,1215 @@ Read port: 63981
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofile4aMwCv/search.json.mozlz4", (void 0)))
 JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+1689456557894	Marionette	INFO	Stopped listening on port 63898
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 572: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1689456563824	Marionette	INFO	Stopped listening on port 63981
+1689456599574	geckodriver	INFO	Listening on 127.0.0.1:64254
+1689456600430	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileTm8JTH"
+1689456601273	Marionette	INFO	Marionette enabled
+1689456601399	Marionette	INFO	Listening on port 64266
+Read port: 64266
+1689456601946	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileTm8JTH/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+1689456616413	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1689456618724	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'interactive'.
+1689456881540	Marionette	INFO	Stopped listening on port 64266
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1689456882751	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1689456914034	geckodriver	INFO	Listening on 127.0.0.1:64514
+1689456914921	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilehdlahY"
+*** You are running in headless mode.
+1689456915455	Marionette	INFO	Marionette enabled
+1689456915537	Marionette	INFO	Listening on port 64526
+Read port: 64526
+1689456916427	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilehdlahY/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ioQW4/yN/l/en_US/CMXb-rj-Yg18sjjKS_fpflqb7dd89HlFZnOTZrlYEQLUD3yiYl2rJ6P3xd5W3dG7BRawi7RMo3hmhrvtdrfbWuHmRbf60j1wNcrnIPT5yyjGZ83qd3_bDos5J.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689457012014	geckodriver	INFO	Listening on 127.0.0.1:64629
+1689457012892	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilejMw4Fe"
+1689457013614	Marionette	INFO	Marionette enabled
+1689457013728	Marionette	INFO	Listening on port 64640
+Read port: 64640
+1689457014317	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilejMw4Fe/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ioQW4/yN/l/en_US/CMXb-rj-Yg18sjjKS_fpflqb7dd89HlFZnOTZrlYEQLUD3yiYl2rJ6P3xd5W3dG7BRawi7RMo3hmhrvtdrfbWuHmRbf60j1wNcrnIPT5yyjGZ83qd3_bDos5J.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689457046233	geckodriver	INFO	Listening on 127.0.0.1:64700
+1689457047116	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilesGhrr5"
+1689457047971	Marionette	INFO	Marionette enabled
+1689457048086	Marionette	INFO	Listening on port 64712
+Read port: 64712
+1689457048650	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilesGhrr5/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ioQW4/yN/l/en_US/CMXb-rj-Yg18sjjKS_fpflqb7dd89HlFZnOTZrlYEQLUD3yiYl2rJ6P3xd5W3dG7BRawi7RMo3hmhrvtdrfbWuHmRbf60j1wNcrnIPT5yyjGZ83qd3_bDos5J.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689457086258	Marionette	INFO	Stopped listening on port 64640
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1689457087411	Marionette	INFO	Stopped listening on port 64712
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1689457087676	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1689457110593	geckodriver	INFO	Listening on 127.0.0.1:64837
+1689457111475	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofiledf05fd"
+1689457112216	Marionette	INFO	Marionette enabled
+1689457112321	Marionette	INFO	Listening on port 64851
+Read port: 64851
+1689457112924	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofiledf05fd/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ioQW4/yN/l/en_US/CMXb-rj-Yg18sjjKS_fpflqb7dd89HlFZnOTZrlYEQLUD3yiYl2rJ6P3xd5W3dG7BRawi7RMo3hmhrvtdrfbWuHmRbf60j1wNcrnIPT5yyjGZ83qd3_bDos5J.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689457140434	Marionette	INFO	Stopped listening on port 64851
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1689459161778	geckodriver	INFO	Listening on 127.0.0.1:65370
+1689459162621	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileTQyMhc"
+*** You are running in headless mode.
+1689459163224	Marionette	INFO	Marionette enabled
+1689459163329	Marionette	INFO	Listening on port 65381
+Read port: 65381
+1689459164229	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileTQyMhc/search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689459184626	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+1689459284730	geckodriver	INFO	Listening on 127.0.0.1:65501
+1689459285607	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofiledqbdPF"
+1689459286195	Marionette	INFO	Marionette enabled
+1689459286336	Marionette	INFO	Listening on port 65514
+Read port: 65514
+1689459287183	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofiledqbdPF/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689459422931	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459442403	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459454360	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459465295	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459473157	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459482981	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459491871	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459501845	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459513884	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459524791	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459546277	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459557313	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459569231	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459580066	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459589615	geckodriver	INFO	Listening on 127.0.0.1:49333
+1689459590487	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofiletyntes"
+1689459591254	Marionette	INFO	Marionette enabled
+1689459591375	Marionette	INFO	Listening on port 49346
+Read port: 49346
+1689459591926	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459592006	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofiletyntes/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689459618750	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459688035	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459698268	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459710184	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459722058	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459731920	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459743879	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459784507	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459803982	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459813890	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459822798	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459831757	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459851213	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459871699	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459879710	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459888654	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459899554	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459908479	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459920490	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459938185	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459958650	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459967769	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459976680	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459988560	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689459998427	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460034657	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460043574	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460054444	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460065357	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460076294	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460099020	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460115706	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460135307	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460144278	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460159927	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460167781	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460178847	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460187775	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460198621	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460207516	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460225540	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460233486	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460242554	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460253490	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460261433	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460271418	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460286901	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460294784	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460305641	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460313557	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460346752	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460355811	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460364891	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460374946	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460385863	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460394843	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460403681	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460423378	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460435265	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460445174	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460455099	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460464920	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460483933	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460495816	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460503788	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460512662	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460522571	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460545396	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460557283	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460568204	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460579086	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460589925	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460601924	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460611923	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689460623970	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:219:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:204:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:425:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:173:31
+1689461990424	geckodriver	INFO	Listening on 127.0.0.1:49790
+1689461991276	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileYXtpGE"
+*** You are running in headless mode.
+1689461992008	Marionette	INFO	Marionette enabled
+1689461992111	Marionette	INFO	Listening on port 49802
+Read port: 49802
+1689461992934	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileYXtpGE/search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689463368613	geckodriver	INFO	Listening on 127.0.0.1:50145
+1689463369498	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofile3kmf25"
+*** You are running in headless mode.
+1689463370131	Marionette	INFO	Marionette enabled
+1689463370225	Marionette	INFO	Listening on port 50157
+Read port: 50157
+1689463371027	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofile3kmf25/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689463392768	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1689463460028	geckodriver	INFO	Listening on 127.0.0.1:50252
+1689463460903	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileGdkA3Y"
+*** You are running in headless mode.
+1689463461441	Marionette	INFO	Marionette enabled
+1689463461519	Marionette	INFO	Listening on port 50263
+Read port: 50263
+1689463462352	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileGdkA3Y/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689463540356	geckodriver	INFO	Listening on 127.0.0.1:50354
+1689463541240	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileAdPGC2"
+1689463541944	Marionette	INFO	Marionette enabled
+1689463542049	Marionette	INFO	Listening on port 50366
+Read port: 50366
+1689463542641	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileAdPGC2/search.json.mozlz4", (void 0)))
+1689463545331	Marionette	INFO	Stopped listening on port 50366
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+JavaScript error: resource://services-settings/RemoteSettingsWorker.jsm, line 145: Error: Shutdown, aborting read-only worker requests.
+1689463564155	geckodriver	INFO	Listening on 127.0.0.1:50412
+1689463565040	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofiledsSiKG"
+*** You are running in headless mode.
+1689463565526	Marionette	INFO	Marionette enabled
+1689463565600	Marionette	INFO	Listening on port 50423
+Read port: 50423
+1689463566390	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofiledsSiKG/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689463582308	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1689463606607	geckodriver	INFO	Listening on 127.0.0.1:50490
+1689463607488	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofile35rtBT"
+*** You are running in headless mode.
+1689463607985	Marionette	INFO	Marionette enabled
+1689463608078	Marionette	INFO	Listening on port 50502
+Read port: 50502
+1689463608921	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofile35rtBT/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ioQW4/yN/l/en_US/CMXb-rj-Yg18sjjKS_fpflqb7dd89HlFZnOTZrlYEQLUD3yiYl2rJ6P3xd5W3dG7BRawi7RMo3hmhrvtdrfbWuHmRbf60j1wNcrnIPT5yyjGZ83qd3_bDos5J.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689463682838	geckodriver	INFO	Listening on 127.0.0.1:50575
+1689463683721	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileH7GNum"
+*** You are running in headless mode.
+1689463684213	Marionette	INFO	Marionette enabled
+1689463684288	Marionette	INFO	Listening on port 50588
+Read port: 50588
+1689463685082	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileH7GNum/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689463735365	geckodriver	INFO	Listening on 127.0.0.1:50676
+1689463736284	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileI1HpC7"
+*** You are running in headless mode.
+1689463736817	Marionette	INFO	Marionette enabled
+1689463736909	Marionette	INFO	Listening on port 50688
+Read port: 50688
+1689463738042	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileI1HpC7/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ioQW4/yN/l/en_US/CMXb-rj-Yg18sjjKS_fpflqb7dd89HlFZnOTZrlYEQLUD3yiYl2rJ6P3xd5W3dG7BRawi7RMo3hmhrvtdrfbWuHmRbf60j1wNcrnIPT5yyjGZ83qd3_bDos5J.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689464138511	geckodriver	INFO	Listening on 127.0.0.1:50856
+1689464139631	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileJtyEWi"
+*** You are running in headless mode.
+1689464140241	Marionette	INFO	Marionette enabled
+1689464140323	Marionette	INFO	Listening on port 50868
+Read port: 50868
+1689464141211	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileJtyEWi/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ioQW4/yN/l/en_US/CMXb-rj-Yg18sjjKS_fpflqb7dd89HlFZnOTZrlYEQLUD3yiYl2rJ6P3xd5W3dG7BRawi7RMo3hmhrvtdrfbWuHmRbf60j1wNcrnIPT5yyjGZ83qd3_bDos5J.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1689472370153	geckodriver	INFO	Listening on 127.0.0.1:50120
+1689472370964	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilezplaQH"
+*** You are running in headless mode.
+1689472371633	Marionette	INFO	Marionette enabled
+1689472371772	Marionette	INFO	Listening on port 50135
+Read port: 50135
+1689472372173	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilezplaQH/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689473198867	geckodriver	INFO	Listening on 127.0.0.1:50520
+1689473199754	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilegLPfMb"
+*** You are running in headless mode.
+1689473200268	Marionette	INFO	Marionette enabled
+1689473200345	Marionette	INFO	Listening on port 50535
+Read port: 50535
+1689473201224	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilegLPfMb/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689478386595	geckodriver	INFO	Listening on 127.0.0.1:51881
+1689478387448	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilesClfSo"
+*** You are running in headless mode.
+1689478388091	Marionette	INFO	Marionette enabled
+1689478388216	Marionette	INFO	Listening on port 51889
+Read port: 51889
+1689478388594	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilesClfSo/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689484795607	geckodriver	INFO	Listening on 127.0.0.1:53431
+1689484796458	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilenzMjhH"
+*** You are running in headless mode.
+1689484797017	Marionette	INFO	Marionette enabled
+1689484797121	Marionette	INFO	Listening on port 53438
+Read port: 53438
+1689484797871	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilenzMjhH/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689484928154	geckodriver	INFO	Listening on 127.0.0.1:53576
+1689484929042	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilejIBvxZ"
+1689484929773	Marionette	INFO	Marionette enabled
+1689484929880	Marionette	INFO	Listening on port 53585
+Read port: 53585
+1689484930462	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilejIBvxZ/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+1689485301122	Marionette	INFO	Stopped listening on port 53585
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1689485355499	geckodriver	INFO	Listening on 127.0.0.1:53877
+1689485356370	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofile7DAXec"
+1689485357115	Marionette	INFO	Marionette enabled
+1689485357229	Marionette	INFO	Listening on port 53886
+Read port: 53886
+1689485357761	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofile7DAXec/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("nodeFront.walkerFront is null", "resource://devtools/client/inspector/markup/markup.js", 1012))
+TypeError: nodeFront.walkerFront is null: _onNewSelection@resource://devtools/client/inspector/markup/markup.js:1012:7
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+setNodeFront@resource://devtools/client/framework/selection.js:203:10
+onDetached@resource://devtools/client/inspector/inspector.js:1685:20
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+_onMutations@resource://devtools/client/framework/selection.js:104:12
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new Error("Can not send request 'getUniqueSelector' because front 'domnode' is already destroyed.", "resource://devtools/shared/protocol/Front/FrontClassWithSpec.js", 28))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "style is null"
+console.error: (new TypeError("style is null", "resource://devtools/server/actors/page-style.js", 1044))
+console.error: (new Error("Protocol error (TypeError): style is null from: server0.conn0.windowGlobal6442450946/pagestyle23 (resource://devtools/server/actors/page-style.js:1044:7)", "resource://devtools/shared/protocol/Front.js", 383))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new TypeError("parent is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 67))
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:67:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:242:32
+emit@resource://devtools/shared/event-emitter.js:186:18
+emit@resource://devtools/shared/event-emitter.js:330:18
+getMutations@resource://devtools/client/fronts/walker.js:313:10
+
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: (new TypeError("container.node.targetFront is null", "resource://devtools/client/inspector/markup/markup.js", 2398))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 572))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal6442450946/pagestyle23 (resource://devtools/server/actors/page-style.js:572:5)", "resource://devtools/shared/protocol/Front.js", 383))
+1689487650274	geckodriver	INFO	Listening on 127.0.0.1:54684
+1689487651131	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileweJiEI"
+1689487651944	Marionette	INFO	Marionette enabled
+1689487652055	Marionette	INFO	Listening on port 54692
+Read port: 54692
+1689487652511	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileweJiEI/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://devtools/server/actors/resources/network-events-content.js, line 71: NS_NOINTERFACE: Component returned failure code: 0x80004002 (NS_NOINTERFACE) [nsISupports.QueryInterface]
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oBMhIGozJCmZhanrY2s6Nzm7GdNkvCqEaGjKud4M6yI.js line 2 > eval line 4753 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oBMhIGozJCmZhanrY2s6Nzm7GdNkvCqEaGjKud4M6yI.js line 2 > eval line 1867 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oBMhIGozJCmZhanrY2s6Nzm7GdNkvCqEaGjKud4M6yI.js line 2 > eval line 5330 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oBMhIGozJCmZhanrY2s6Nzm7GdNkvCqEaGjKud4M6yI.js line 2 > eval line 1670 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: , line 0: uncaught exception: 7
+JavaScript error: https://assets.a-mo.net/js/cframe.js#gdpr=0&gdpr_consent=&cc=US, line 1: SecurityError: The operation is insecure.
+JavaScript error: https://prebid.a-mo.net/cchain/0?gdpr=&us_privacy=&cb=https%3A%2F%2Fcookies.nextmillmedia.com%2Fsetuid%3Fbidder%3Damx%26nmuid%3D%26gdpr%3D%26gdpr_consent%3D%26us_privacy%3D%26uid%3D, line 2: ReferenceError: __am$CK is not defined
+JavaScript warning: https://z.moatads.com/yahoodisplay873773666324/moatad.js#moatClientLevel1=Yahoo!&moatClientLevel2=310755&moatClientLevel3=1709397&moatClientLevel4=5884749&moatClientSlicer1=88&moatClientSlicer2=0&zMoatAuctionID=1995209175853662785:1689487712401&zMoatAdReqDomain=tutorialspoint.com&zMoatTL=triplelift, line 283: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oBMhIGozJCmZhanrY2s6Nzm7GdNkvCqEaGjKud4M6yI.js line 2 > eval line 4592 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oBMhIGozJCmZhanrY2s6Nzm7GdNkvCqEaGjKud4M6yI.js line 2 > eval line 4020 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oBMhIGozJCmZhanrY2s6Nzm7GdNkvCqEaGjKud4M6yI.js line 2 > eval line 6358 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://s.yimg.com/rq/iv/inside-native.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: https://apps.sascdn.com/rtb/transparency/handler/st.min.html?%7b%22bid%22%3a%227e147ebf-43d0-465c-9931-54904581c0fb%22%2c%22adomain%22%3a%22sling.com%22%2c%22page%22%3a%221483306%22%2c%22format%22%3a%22105840%22%2c%22crid%22%3a%2274_13243442%22%2c%22dsp%22%3a%2231%22%2c%22buyer%22%3a%224237%22%2c%22cid%22%3a%221562850%22%2c%22adid%22%3a%2274_13243442%22%2c%22hash%22%3a%226534556742752826937%22%7d, line 1: SecurityError: The operation is insecure.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oBMhIGozJCmZhanrY2s6Nzm7GdNkvCqEaGjKud4M6yI.js line 2 > eval line 1087 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://pagead2.googlesyndication.com/bg/oBMhIGozJCmZhanrY2s6Nzm7GdNkvCqEaGjKud4M6yI.js line 2 > eval line 5252 > eval line 1 > eval line 1 > eval, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside-20.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1689487753889	Marionette	INFO	Stopped listening on port 53886
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://cdn.js7k.com/rq/iv/inside.js, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1689487760484	Marionette	INFO	Stopped listening on port 54692
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
+1689487763675	geckodriver	INFO	Listening on 127.0.0.1:55366
+1689487764537	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilewLQXUl"
+1689487765389	Marionette	INFO	Marionette enabled
+1689487765500	Marionette	INFO	Listening on port 55377
+Read port: 55377
+1689487765780	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilewLQXUl/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689487771903	Marionette	INFO	Stopped listening on port 55377
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1689487774010	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1689487781587	geckodriver	INFO	Listening on 127.0.0.1:55439
+1689487782470	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilepEsWPi"
+1689487783178	Marionette	INFO	Marionette enabled
+1689487783280	Marionette	INFO	Listening on port 55450
+Read port: 55450
+1689487783809	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilepEsWPi/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689487887854	geckodriver	INFO	Listening on 127.0.0.1:55553
+1689487888728	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileQAdBwJ"
+1689487889431	Marionette	INFO	Marionette enabled
+1689487889532	Marionette	INFO	Listening on port 55565
+Read port: 55565
+1689487890078	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileQAdBwJ/search.json.mozlz4", (void 0)))
+1689487891898	Marionette	INFO	Stopped listening on port 55565
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1689487891978	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+console.error: (new Error("The object has been already finalized.", "resource://gre/modules/DeferredTask.sys.mjs", 273))
+console.error: "Failed to import bookmarks from chrome://browser/content/default-bookmarks.html: Error: Connection closed before committing the transaction."
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+sendPing@resource://gre/modules/EventPing.jsm:51:30
+_submitPing@resource://gre/modules/EventPing.jsm:229:12
+shutdown@resource://gre/modules/EventPing.jsm:112:10
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:940:31
+shutdown/<@resource://gre/modules/TelemetryControllerParent.jsm:1010:24
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:982:34
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:103:5
+promiseArchivePing@resource://gre/modules/TelemetryArchive.jsm:63:33
+_submitPingLogic@resource://gre/modules/TelemetryControllerParent.jsm:540:48
+send@resource://gre/modules/TelemetryControllerParent.jsm:628:24
+submitExternalPing@resource://gre/modules/TelemetryControllerParent.jsm:182:17
+saveShutdownPings@resource://gre/modules/TelemetrySession.jsm:1014:36
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1232:20
+cleanup@resource://gre/modules/TelemetrySession.jsm:1239:9
+shutdownChromeProcess@resource://gre/modules/TelemetrySession.jsm:1256:14
+shutdown@resource://gre/modules/TelemetrySession.jsm:247:17
+_cleanupOnShutdown@resource://gre/modules/TelemetryControllerParent.jsm:959:35
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:1692:7
+getShutdownState@resource://gre/modules/TelemetrySend.jsm:374:30
+_getState@resource://gre/modules/TelemetryControllerParent.jsm:1058:38
+setupTelemetry/<@resource://gre/modules/TelemetryControllerParent.jsm:917:18
+safeGetState@resource://gre/modules/AsyncShutdown.jsm:254:17
+Barrier/_internalAddBlocker/promise<@resource://gre/modules/AsyncShutdown.jsm:773:20
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.jsm:718:15
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.jsm:462:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.jsm:19:28
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:721:5
+removeAbortedSessionPing@resource://gre/modules/TelemetryControllerParent.jsm:249:17
+shutdownChromeProcess/cleanup/<@resource://gre/modules/TelemetrySession.jsm:1235:42
+observe@resource://gre/modules/AsyncShutdown.jsm:572:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1689487897852	geckodriver	INFO	Listening on 127.0.0.1:55590
+1689487898734	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileDJefB7"
+1689487899461	Marionette	INFO	Marionette enabled
+1689487899566	Marionette	INFO	Listening on port 55601
+Read port: 55601
+1689487900080	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileDJefB7/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689487935126	Marionette	INFO	Stopped listening on port 55601
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1689487937253	Marionette	INFO	Stopped listening on port 55450
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1689488070731	geckodriver	INFO	Listening on 127.0.0.1:55785
+1689488071616	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileIIwTcy"
+1689488072334	Marionette	INFO	Marionette enabled
+1689488072436	Marionette	INFO	Listening on port 55796
+Read port: 55796
+1689488072964	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileIIwTcy/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689488102452	Marionette	INFO	Stopped listening on port 55796
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1689488106411	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1689488226739	geckodriver	INFO	Listening on 127.0.0.1:55982
+1689488227623	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilefCeTEq"
+*** You are running in headless mode.
+1689488228114	Marionette	INFO	Marionette enabled
+1689488228185	Marionette	INFO	Listening on port 55991
+Read port: 55991
+1689488228935	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilefCeTEq/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689488693955	geckodriver	INFO	Listening on 127.0.0.1:56294
+1689488694840	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilegQMS3V"
+*** You are running in headless mode.
+1689488695363	Marionette	INFO	Marionette enabled
+1689488695461	Marionette	INFO	Listening on port 56303
+Read port: 56303
+1689488696296	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofilegQMS3V/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689488920462	geckodriver	INFO	Listening on 127.0.0.1:56513
+1689488921331	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileaZjiue"
+1689488922137	Marionette	INFO	Marionette enabled
+1689488922239	Marionette	INFO	Listening on port 56521
+Read port: 56521
+1689488922716	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileaZjiue/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689488938090	Marionette	INFO	Stopped listening on port 56521
+1689488982943	geckodriver	INFO	Listening on 127.0.0.1:56732
+1689488983827	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileMFewwy"
+*** You are running in headless mode.
+1689488984305	Marionette	INFO	Marionette enabled
+1689488984377	Marionette	INFO	Listening on port 56760
+Read port: 56760
+1689488985134	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileMFewwy/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689489041557	geckodriver	INFO	Listening on 127.0.0.1:57300
+1689489042435	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... "--marionette" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofile57pjnU"
+1689489043154	Marionette	INFO	Marionette enabled
+1689489043258	Marionette	INFO	Listening on port 57312
+Read port: 57312
+1689489043842	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofile57pjnU/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689489051389	Marionette	INFO	Stopped listening on port 57312
+JavaScript error: chrome://remote/content/marionette/cert.sys.mjs, line 51: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+1689489052297	geckodriver::marionette	ERROR	Failed to close browser connection: Socket is not connected (os error 57)
+1689489093154	geckodriver	INFO	Listening on 127.0.0.1:57415
+1689489094042	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileZLFu4R"
+*** You are running in headless mode.
+1689489094519	Marionette	INFO	Marionette enabled
+1689489094590	Marionette	INFO	Listening on port 57423
+Read port: 57423
+1689489095359	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileZLFu4R/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1689489146033	geckodriver	INFO	Listening on 127.0.0.1:57521
+1689489146923	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... e" "-headless" "-foreground" "-no-remote" "-profile" "/var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileO4CHc7"
+*** You are running in headless mode.
+1689489147431	Marionette	INFO	Marionette enabled
+1689489147521	Marionette	INFO	Listening on port 57531
+Read port: 57531
+1689489148330	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/lj/hz6wjd_s0cqclv02cy81gqxc0000gn/T/rust_mozprofileO4CHc7/search.json.mozlz4", (void 0)))
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yG/l/en_US/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.instagram.com."
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iB2p4/yW/l/makehaste_jhash/CMXb-rj-Yg1.js?_nc_x=Ij3Wp8lg5Kz, line 1991: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.

@@ -1,10 +1,6 @@
-import os
 import time
 import sys
 import random
-import spintax
-import requests
-import numpy as np
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -12,10 +8,9 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.keys import Keys
 from selenium.common.exceptions import NoSuchElementException
-from sanyacreds import username as usr, password as passw
+from michayacreds import username as usr, password as passw
 from webdriver_manager.firefox import GeckoDriverManager as GM
 from selenium.webdriver.firefox.options import Options
-
 
 sys.setrecursionlimit(10**6)
 
@@ -73,14 +68,21 @@ class Bot:
         pass_field.send_keys(self.password)
         bot.find_element_by_xpath(
             '/html/body/div[2]/div/div/div[1]/div/div/div/div[1]/section/main/article/div[2]/div[1]/div[2]/form/div/div[3]/button').click()
-        time.sleep(6)
+        time.sleep(10)
 
     def get_posts(self):
+        print("Getting user...")
+        profLink = self.bot.find_element_by_xpath('/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/div[1]/div[1]/div/div/div/div/div[2]/div[8]/div/span/div/a').get_attribute('href')
+        time.sleep(2)
+        user = profLink.split('m/')[1].split('/?')[0]
+        print(f"User...{user}")
+
         print('Searching for post...')
         link = self.link
         self.bot.get(link)
         time.sleep(1)
-       
+
+        
         return run.comment(random_comment())
 
 
@@ -105,6 +107,7 @@ class Bot:
         print(f"Entering...{self.count}")
         comment_box.send_keys(comment)
         time.sleep(1)
+        
 
         find_post_button = (
             By.XPATH, '/html/body/div[2]/div/div/div[2]/div/div/div/div[1]/div[1]/div[2]/section/main/div/div[1]/div/div[2]/div/section/div/form/div/div[2]/div')
